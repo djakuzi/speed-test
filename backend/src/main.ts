@@ -16,8 +16,6 @@ async function bootstrap() {
 
 	ModuleSwagger.onApplication(app);
 
-	// createSwagger();
-
 	await app.listen(configBackend?.port ?? 3000);
 }
 
