@@ -1,0 +1,15 @@
+@theme {
+	--color-kn-bg-base: #F8FAFC;
+	--color-kn-bg-surface: #FFFFFF;
+	--color-kn-bg-primary: #2563EB;
+	--color-kn-bg-accent: #0F172A;
+}
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+[data-theme=dark] {
+	--color-kn-bg-base: #0F172A;
+	--color-kn-bg-surface: #1E293B;
+	--color-kn-bg-primary: #3B82F6;
+	--color-kn-bg-accent: #E2E8F0;
+}

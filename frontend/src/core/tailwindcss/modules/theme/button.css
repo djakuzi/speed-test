@@ -1,0 +1,15 @@
+@theme {
+	--color-kn-btn-base: #F8FAFC;
+	--color-kn-btn-surface: #FFFFFF;
+	--color-kn-btn-primary: #2563EB;
+	--color-kn-btn-accent: #0F172A;
+}
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+[data-theme=dark] {
+	--color-kn-btn-base: #F8FAFC;
+	--color-kn-btn-surface: #FFFFFF;
+	--color-kn-btn-primary: #3B82F6;
+	--color-kn-btn-accent: #E2E8F0;
+}

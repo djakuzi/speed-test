@@ -1,0 +1,21 @@
+@theme {
+	--color-kn-text-white: #F8FAFC;
+	--color-kn-text-base: #0F172A;
+	--color-kn-text-secondary: #475569;
+	--color-kn-text-primary: #2563EB;
+	--color-kn-text-accent: #06B6D4;
+	--color-kn-text-error: #EF4444;
+	--color-kn-text-succes: #10B981;
+}
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+[data-theme=dark] {
+	--color-kn-text-white: #F8FAFC;
+	--color-kn-text-base: #E2E8F0;
+	--color-kn-text-secondary: #94A3B8;
+	--color-kn-text-primary: #3B82F6;
+	--color-kn-text-accent: #22D3EE;
+	--color-kn-text-error: #F87171;
+	--color-kn-text-succes: #34D399;
+}

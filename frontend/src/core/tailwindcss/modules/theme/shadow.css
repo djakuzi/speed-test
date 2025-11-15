@@ -1,0 +1,9 @@
+@theme {
+	--shadow-kn-montserrat: 0 .05em .5em rgba(15, 23, 42, 0.08);
+}
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+[data-theme=dark] {
+	--shadow-kn-montserrat: 0 .05em .5em rgba(0, 0, 0, 0.4);
+}

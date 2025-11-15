@@ -1,0 +1,1 @@
+export type TTextSize = 'big' | 'medium' | 'small';
